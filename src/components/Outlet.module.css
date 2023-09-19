@@ -1,0 +1,7 @@
+.container {
+    border: 2px solid red;
+    width: 90%;
+    height: 95%;
+    border-radius: 2rem;
+    background-color: blueviolet;
+}
