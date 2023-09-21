@@ -1,4 +1,3 @@
-import styles from "./Tabs.module.css";
 
 type TabItemProps = {
     id: string;
@@ -13,7 +12,7 @@ export const TabItem = ({ id, title, activeTab, setActiveTab }: TabItemProps) =>
   };
   
   return (
-    <li onClick={handleClick} className={activeTab === id ? styles.active : ""}>
+    <li onClick={handleClick} className={activeTab === id ? 'act' : ""}>
       {title}
     </li>
   );

@@ -1,4 +1,3 @@
-// import styles from "./Tabs.module.css"
 
 type TabContent = {
     id: string,
@@ -6,7 +5,7 @@ type TabContent = {
     children: React.ReactElement
 }
 
-export const TabContent = ({id, activeTab, children}: TabContent) => {
+export const TabContent = ({id, activeTab, children}: TabContent) => {  
     return (
       activeTab === id ? <div>
         { children }
