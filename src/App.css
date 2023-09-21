@@ -6,5 +6,150 @@
 
 .app-container {
   height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
+.page {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: margin-left 1s;
+}
+
+.page-with-navbar {
+  margin-left: 15%;
+}
+
+/* DESKTOP 
+TO MOBILE FIRST. LEAVE IT LIKE IT IS. JUST CHANGE FOR EXAMPLE THE MOBILE WIDTH TO THE DESKTOP WIDTH SO THE PHONE CAN TAKE ALL THE PARAMTERES ALREADY WRITTEN
+*/
+
+/* @media only screen and (min-width: 350px) {
+  .nav-side {
+    background-color: blue;
+  }
+} */
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  min-height: 100vh;
+  background-color: #eabd9f;
+  padding: 2rem 1rem 1rem 1rem;
+  transition: transform 1s;
+}
+
+.navbar {
+  transform: translateX(-100%);
+}
+
+.nav-btn {
+  position: absolute;
+  transform: translateX(38px);
+  top: 20px;
+  right: 0;
+  width: 40px;
+  height: 60px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eabd9f;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #FFF;
+}
+
+.logo-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 2rem;
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+  background: transparent;
+  font-family: 'Gloock', serif;
+}
+
+.nav-link {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 1rem;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.nav-link li {
+  list-style: none;
+}
+
+.nav-link:hover {
+  background-color: #e791579a;
+  color: #4e4e4e;
+}
+
+.nav-link span {
+  margin-left: 10px;
+}
+
+.nav-top {
+  margin-top: 10rem;
+}
+
+.mobile-nav {
+  background-color: #eabd9f;
+  width: 100%;
+  height: 40px;
+  display: none;
+}
+
+.mobile-nav-btn {
+  color: #fff;
+  background: transparent;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-with-navbar {
+    width: 100%;
+    margin-left: 0;
+  }
+  nav {
+    width: 40%;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+  }
+  nav {
+    width: 70%;
+    top: 38px;
+    min-height: calc(100vh - 38px);
+  }
+
+  .nav-btn {
+    display: none;
+  }
+}
