@@ -1,3 +1,20 @@
-import { Iuml } from "../models/uml";
-
-export const UMLdiagrams: Iuml = {id: 1, title: "First Diagram"}
+export const umlDiagrams = [
+  {
+    id: 1,
+    title: "string",
+    image: "https://source.unsplash.com/random",
+    shortDescription: "strin",
+    largeDescription: "string",
+    source: "",
+    essential: true
+  },
+  {
+    id: 2,
+    title: "string",
+    image: "https://source.unsplash.com/random",
+    shortDescription: "strin",
+    largeDescription: "string",
+    source: "",
+    essential: true
+  },
+];
