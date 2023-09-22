@@ -3,12 +3,14 @@ import { TabItem } from "./tabComponents/TabItem";
 import {
   FaAngleRight,
   FaBars,
-  FaChartBar,
-  FaShoppingCart,
   FaThLarge,
-  FaTimes
+  FaTh,
+  FaTimes,
 } from "react-icons/fa";
+
+import { FaDiagramProject, FaChartGantt } from "react-icons/fa6";
 import { SiDiagramsdotnet } from "react-icons/si";
+import { NavbarBtn } from "./NavbarBtn";
 
 type NavbarProps = {
   activeTab: string;
@@ -47,43 +49,42 @@ export const Navbar = ({
             <h1 className="logo">DIAGRAMS</h1>
           </div>
           <div className="links nav-top">
-            {/* REFACTOR NAV-LINk */}
-            <div className="nav-link" onClick={() => setIsVisible(!isVisible)}>
-              <FaThLarge />
+            <NavbarBtn isVisible={isVisible} setIsVisible={setIsVisible}>
+              <FaTh />
               <TabItem
-                title="Toutes les diagrammes"
+                title="Tous les diagrammes"
                 id="first-tab"
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
               />
-            </div>
-            <div className="nav-link" onClick={() => setIsVisible(!isVisible)}>
-              <FaChartBar />
+            </NavbarBtn>
+            <NavbarBtn isVisible={isVisible} setIsVisible={setIsVisible}>
+              <FaThLarge />
               <TabItem
                 title="Diagrammes indispensables"
                 id="second-tab"
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
               />
-            </div>
-            <div className="nav-link">
-              <FaShoppingCart />
+            </NavbarBtn>
+            <NavbarBtn isVisible={isVisible} setIsVisible={setIsVisible}>
+              <FaDiagramProject />
               <TabItem
                 title="Diagrammes UML"
                 id="third-tab"
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
               />
-            </div>
-            <div className="nav-link">
-              <FaShoppingCart />
+            </NavbarBtn>
+            <NavbarBtn isVisible={isVisible} setIsVisible={setIsVisible}>
+              <FaChartGantt />
               <TabItem
                 title="Diagrammes Merise"
                 id="fourth-tab"
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
               />
-            </div>
+            </NavbarBtn>
           </div>
         </div>
 
