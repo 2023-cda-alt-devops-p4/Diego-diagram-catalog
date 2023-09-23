@@ -1,4 +1,4 @@
-export interface IUml {
+export interface IMerise {
     id: number;
     title: string;
     image: string;
