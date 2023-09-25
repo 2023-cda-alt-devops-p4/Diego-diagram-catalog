@@ -2,7 +2,7 @@ export const meriseDiagrams = [
   {
     id: 1,
     title: " Modèle Conceptuel de Communication",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -11,7 +11,7 @@ export const meriseDiagrams = [
   {
     id: 2,
     title: "Modèle Conceptuel des Données",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -20,7 +20,7 @@ export const meriseDiagrams = [
   {
     id: 3,
     title: " Modèle Conceptuel des Traitements",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -29,7 +29,7 @@ export const meriseDiagrams = [
   {
     id: 4,
     title: "Modèle Organisationnel de Communication",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -38,7 +38,7 @@ export const meriseDiagrams = [
   {
     id: 5,
     title: "Modèle Organisationnel des Données",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -47,7 +47,7 @@ export const meriseDiagrams = [
   {
     id: 6,
     title: "Modèle Organisationnel des Traitement",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -56,7 +56,7 @@ export const meriseDiagrams = [
   {
     id: 7,
     title: "Modèle Logique de Communication",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -65,7 +65,7 @@ export const meriseDiagrams = [
   {
     id: 8,
     title: "Modèle Logique des Données",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -74,7 +74,7 @@ export const meriseDiagrams = [
   {
     id: 9,
     title: "Modèle Logique des Traitements",
-    image: "string",
+    image: "https://source.unsplash.com/randomg",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -83,7 +83,7 @@ export const meriseDiagrams = [
   {
     id: 10,
     title: "Modèle Physique de Communication",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -92,7 +92,7 @@ export const meriseDiagrams = [
   {
     id: 11,
     title: "Modèle Physique des Données",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",
@@ -101,7 +101,7 @@ export const meriseDiagrams = [
   {
     id: 12,
     title: "Modèle Physique des Traitements",
-    image: "string",
+    image: "https://source.unsplash.com/random",
     shortDescription: "strin",
     largeDescription: "string",
     source: "",

@@ -1,4 +1,4 @@
-export interface IMerise {
+export interface IDiagram {
     id: number;
     title: string;
     image: string;
