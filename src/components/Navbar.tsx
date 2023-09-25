@@ -1,12 +1,4 @@
-import { TabItem } from "./tabComponents/TabItem";
-
-import {
-  FaAngleRight,
-  FaBars,
-  FaThLarge,
-  FaTh,
-  FaTimes,
-} from "react-icons/fa";
+import { FaAngleRight, FaBars, FaThLarge, FaTh, FaTimes } from "react-icons/fa";
 
 import { FaDiagramProject, FaChartGantt } from "react-icons/fa6";
 import { SiDiagramsdotnet } from "react-icons/si";
@@ -49,41 +41,45 @@ export const Navbar = ({
             <h1 className="logo">DIAGRAMS</h1>
           </div>
           <div className="links nav-top">
-            <NavbarBtn isVisible={isVisible} setIsVisible={setIsVisible}>
+            <NavbarBtn
+              isVisible={isVisible}
+              setIsVisible={setIsVisible}
+              id="first-tab"
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+            >
               <FaTh />
-              <TabItem
-                title="Tous les diagrammes"
-                id="first-tab"
-                activeTab={activeTab}
-                setActiveTab={setActiveTab}
-              />
+              <li>Tous le diagrammes</li>
             </NavbarBtn>
-            <NavbarBtn isVisible={isVisible} setIsVisible={setIsVisible}>
+            <NavbarBtn
+              isVisible={isVisible}
+              setIsVisible={setIsVisible}
+              id="second-tab"
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+            >
               <FaThLarge />
-              <TabItem
-                title="Diagrammes indispensables"
-                id="second-tab"
-                activeTab={activeTab}
-                setActiveTab={setActiveTab}
-              />
+              <li>Diagrammes indispensable</li>
             </NavbarBtn>
-            <NavbarBtn isVisible={isVisible} setIsVisible={setIsVisible}>
+            <NavbarBtn
+              isVisible={isVisible}
+              setIsVisible={setIsVisible}
+              id="third-tab"
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+            >
               <FaDiagramProject />
-              <TabItem
-                title="Diagrammes UML"
-                id="third-tab"
-                activeTab={activeTab}
-                setActiveTab={setActiveTab}
-              />
+              <li>Diagrammes UML</li>
             </NavbarBtn>
-            <NavbarBtn isVisible={isVisible} setIsVisible={setIsVisible}>
+            <NavbarBtn
+              isVisible={isVisible}
+              setIsVisible={setIsVisible}
+              id="fourth-tab"
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+            >
               <FaChartGantt />
-              <TabItem
-                title="Diagrammes Merise"
-                id="fourth-tab"
-                activeTab={activeTab}
-                setActiveTab={setActiveTab}
-              />
+              <li>Diagrammes Merise</li>
             </NavbarBtn>
           </div>
         </div>
