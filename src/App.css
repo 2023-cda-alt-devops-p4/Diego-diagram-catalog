@@ -4,6 +4,15 @@
   margin: 0;
 }
 
+:root {
+  --principal: #E79057;
+  --secondary: #ffd4b0;
+  --dark: #a26c3d;
+  --clearorange: #ffead7;
+  --principaltext: #000000;
+  --secondarytext: #DFE0DF;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -100,7 +109,7 @@ nav {
 }
 
 .mobile-nav-btn {
-  color: #fff;
+  color: var(--secondarytext);
   background: transparent;
   outline: none;
   border: none;
@@ -115,7 +124,7 @@ nav {
   }
   nav {
     width: 45%;
-    min-height: 100vh;
+    min-height: 100%;
     top: 0;
   }
   .nav-btn {
