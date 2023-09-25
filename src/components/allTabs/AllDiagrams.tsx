@@ -11,6 +11,7 @@ export const AllDiagrams = () => {
 
   return (
     <div className={styles.container}>
+      <h1>Tous les diagrammes</h1>
       <ModelCard data={umlData} />
       <div className={styles.cardsContainer}>
         {umlDiagrams.map((umlDiagram) => (
