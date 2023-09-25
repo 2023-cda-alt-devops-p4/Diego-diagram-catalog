@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Navbar } from "../components/Navbar";
-import { Outlet } from "../components/Outlet";
+import { Outlet } from "react-router-dom";
 
 export const Dashboard = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [activeTab, setActiveTab] = useState("first-tab");
+  const [activeTab, setActiveTab] = useState("");
 
   return (
     <>
@@ -14,7 +14,7 @@ export const Dashboard = () => {
         isVisible={isVisible}
         setIsVisible={setIsVisible}
       />
-      <Outlet activeTab={activeTab} isVisible={isVisible} />
+      <Outlet />
     </>
   );
 };

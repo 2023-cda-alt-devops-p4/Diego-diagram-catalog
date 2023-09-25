@@ -19,8 +19,8 @@ export const ModelCard = ({ data }: ModelCardProps) => {
       <p>{data.description}</p>
       <div className={styles.softwareContainer}>
         Logiciels:
-        {data.software.map((eachOne) => (
-          <p className={styles.software}>{eachOne}</p>
+        {data.software.map((eachOne, i) => (
+          <p className={styles.software} key={i}>{eachOne}</p>
         ))}
       </div>
     </div>
