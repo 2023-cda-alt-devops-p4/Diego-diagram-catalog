@@ -3,6 +3,7 @@ import { FaAngleRight, FaBars, FaThLarge, FaTh, FaTimes } from "react-icons/fa";
 import { FaDiagramProject, FaChartGantt } from "react-icons/fa6";
 import { SiDiagramsdotnet } from "react-icons/si";
 import { NavbarBtn } from "./NavbarBtn";
+import { Link } from "react-router-dom";
 
 type NavbarProps = {
   activeTab: string;
@@ -41,6 +42,7 @@ export const Navbar = ({
             <h1 className="logo">DIAGRAMS</h1>
           </div>
           <div className="links nav-top">
+            <Link to="/">
             <NavbarBtn
               isVisible={isVisible}
               setIsVisible={setIsVisible}
@@ -51,6 +53,8 @@ export const Navbar = ({
               <FaTh />
               <li>Tous le diagrammes</li>
             </NavbarBtn>
+            </Link>
+            <Link to="/essentials">
             <NavbarBtn
               isVisible={isVisible}
               setIsVisible={setIsVisible}
@@ -61,6 +65,8 @@ export const Navbar = ({
               <FaThLarge />
               <li>Diagrammes indispensable</li>
             </NavbarBtn>
+            </Link>
+            <Link to="/uml-diagrams">
             <NavbarBtn
               isVisible={isVisible}
               setIsVisible={setIsVisible}
@@ -71,6 +77,8 @@ export const Navbar = ({
               <FaDiagramProject />
               <li>Diagrammes UML</li>
             </NavbarBtn>
+            </Link>
+            <Link to="/merise-diagrams">
             <NavbarBtn
               isVisible={isVisible}
               setIsVisible={setIsVisible}
@@ -81,6 +89,7 @@ export const Navbar = ({
               <FaChartGantt />
               <li>Diagrammes Merise</li>
             </NavbarBtn>
+            </Link>
           </div>
         </div>
 
