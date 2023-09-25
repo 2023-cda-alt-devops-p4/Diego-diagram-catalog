@@ -9,7 +9,7 @@ export const ModelCard = ({ data }: ModelCardProps) => {
   console.log("here", data);
 
   return (
-    <div>
+    <div className={styles.modelContainer}>
       <img
         src={data.image}
         alt={`${data.title} image`}
