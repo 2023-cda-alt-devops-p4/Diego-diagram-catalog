@@ -6,4 +6,6 @@ export interface IDiagram {
     largeDescription: string;
     source: string;
     essential: boolean;
+
+    essentialId?: string;
 }

@@ -1,8 +1,8 @@
-import { IUml } from "../models/uml";
+import { IDiagram } from "../models/diagram";
 import styles from "./DiagramCard.module.css";
 
 type DiagramCardProps = {
-  data: IUml;
+  data: IDiagram;
 };
 
 export const DiagramCard = ({ data }: DiagramCardProps) => {
