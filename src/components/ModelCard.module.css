@@ -3,11 +3,20 @@
     width: 95%;
 }
 
+.imgParent {
+    overflow: hidden;
+}
+
 .modelImage {
     height: 20rem;
     width: 100%;
     object-fit: cover;
     border-radius: .2rem;
+    transition: transform .5s ease;
+}
+
+.modelImage:hover {
+    transform: scale(1.5);
 }
 
 .softwareContainer {
