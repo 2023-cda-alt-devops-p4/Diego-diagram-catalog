@@ -37,10 +37,12 @@ export const Diagram = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>{dataToDisplay!.title}</h1>
       <img src={dataToDisplay.image} alt={`${dataToDisplay.title} image`} className={styles.image} />
+      <div className={styles.textContainer}>
       <p className={styles.paragraph}>{dataToDisplay.largeDescription}</p>
       <a href={dataToDisplay.source} target="_blank" className={styles.sourceLink}>
         Read more
       </a>
+      </div>
     </div>
   );
 };
