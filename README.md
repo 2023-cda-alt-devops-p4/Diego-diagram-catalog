@@ -1,27 +1,17 @@
-# React + TypeScript + Vite
+# UML & Merise Diagrams
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Merise is a method for guiding the analysis, design and development phases of a company's information system. It is a structured approach to the analysis, design and management of information systems, with a particular focus on data modeling and organization.
 
-Currently, two official plugins are available:
+UML is a standardized modeling language used in software engineering to visually represent and document the various aspects of software systems. It provides a set of symbols and diagrams that help professionals such as software engineers, designers and analysts to visualize, design, communicate and document.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application presents these diagrams along with essential information that will be helpful for studying.
 
-## Expanding the ESLint configuration
+Currently running on:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Diagrams app!](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
 
-- Configure the top-level `parserOptions` property like this:
+## Sources 
+- [Merise](https://www.cours-gratuit.com/cours-merise/cours-sur-les-differents-modeles-de-la-methode-merise)
+- [UML](https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## What the app looks like:
