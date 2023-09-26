@@ -1,6 +1,7 @@
 .container {
     background-color: var(--clearorange);
     border-radius: .3rem;
+    border: .1rem solid var(--secondary);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,4 +17,12 @@
     object-fit: cover;
     border-radius: .5rem;
     margin-bottom: .5rem;
+}
+
+.cardTitle {
+    color: var(--dark);
+}
+
+.cardShortDescription {
+    color: var(--principal);
 }

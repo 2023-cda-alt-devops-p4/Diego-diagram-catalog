@@ -1,6 +1,5 @@
 .modelContainer {
-    margin-bottom: 2rem;
-    width: 95%;
+    width: 85%;
 }
 
 .imgParent {
@@ -19,6 +18,10 @@
     transform: scale(1.5);
 }
 
+.modelTitle {
+    color: var(--principal);
+}
+
 .softwareContainer {
     display: flex;
     align-items: center;
@@ -30,10 +33,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8rem;
+    text-align: center;
+    font-size: .9rem;
+    width: auto;
+    min-height: auto;
+    padding: .2rem .3rem;
     border-radius: 0.2rem;
     color: #575656;
     background-color: #eabd9f;
-    height: 2rem;
     border: .1rem solid #e6a478;
 }

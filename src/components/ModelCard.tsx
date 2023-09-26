@@ -15,7 +15,7 @@ export const ModelCard = ({ data }: ModelCardProps) => {
           className={styles.modelImage}
         />
       </div>
-      <h1>{data.title}</h1>
+      <h1 className={styles.modelTitle}>{data.title}</h1>
       <p>{data.description}</p>
       <div className={styles.softwareContainer}>
         Logiciels:
