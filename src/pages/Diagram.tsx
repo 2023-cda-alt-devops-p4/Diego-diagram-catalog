@@ -1,6 +1,5 @@
 import { useLocation, useParams } from "react-router-dom";
-import { meriseDiagrams } from "../data/merise";
-import { umlDiagrams } from "../data/UMLdiagrams";
+import data from "../data/diagrams.json"
 import { IDiagram } from "../models/diagram";
 import { useEffect, useState } from "react";
 import styles from "./Diagram.module.css";
@@ -10,6 +9,9 @@ export const Diagram = () => {
   const { pathname } = useLocation();
   const [dataToDisplay, setDataToDisplay] = useState<IDiagram | null>(null);
 
+  const meriseDiagrams = data.find(x => x.type === 'Merise')?.allDiagrams;
+  const umlDiagrams = data.find(x => x.type === 'UML')?.allDiagrams;
+
   const filterDataById = (dataToFilter: IDiagram[]) => {
       const result = dataToFilter.filter((x) => x.id === Number(params.id?.replace(/^\D+/g, '')))[0];
       return result;
@@ -17,10 +19,10 @@ export const Diagram = () => {
 
   const getDiagramData = () => {
     if (pathname.includes("/merise")) {
-      const meriseData = filterDataById(meriseDiagrams);
+      const meriseData = filterDataById(meriseDiagrams as IDiagram[]);
       setDataToDisplay(meriseData);
     } else {
-      const umlData = filterDataById(umlDiagrams);
+      const umlData = filterDataById(umlDiagrams as IDiagram[]);
       setDataToDisplay(umlData);
     }
   };

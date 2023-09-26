@@ -1,4 +1,4 @@
-export const diagrams = [
+export const models = [
   {
     id: 1,
     title: "Unified Modeling Language (UML)",

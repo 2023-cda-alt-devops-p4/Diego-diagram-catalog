@@ -1,13 +1,15 @@
-import { diagrams } from "../../data/diagrams";
+import { models } from "../../data/models";
 import { ModelCard } from "../ModelCard";
-import { umlDiagrams } from "../../data/UMLdiagrams";
-import { meriseDiagrams } from "../../data/merise";
 import styles from "./AllDiagrams.module.css";
 import { Tab } from "../Tab";
+import data from "../../data/diagrams.json"
+import { IDiagram } from "../../models/diagram";
 
 export const AllDiagrams = () => {
-  const umlData = diagrams.filter((UMLId) => UMLId.id === 1)[0];
-  const meriseData = diagrams.filter((UMLId) => UMLId.id === 2)[0];
+  const umlData = models.filter((UMLId) => UMLId.id === 1)[0];
+  const meriseData = models.filter((UMLId) => UMLId.id === 2)[0];
+  const meriseDiagrams = data.find(x => x.type === 'Merise')?.allDiagrams;
+  const umlDiagrams = data.find(x => x.type === 'UML')?.allDiagrams;
 
   return (
     <div className={styles.container}>
@@ -15,14 +17,14 @@ export const AllDiagrams = () => {
       <ModelCard data={umlData} />
       <Tab
         tabTitle=""
-        dataToDisplay={umlDiagrams}
+        dataToDisplay={umlDiagrams as IDiagram[]}
         parentRoute="uml-diagrams"
         essentials={false}
       />
       <ModelCard data={meriseData} />
       <Tab
         tabTitle=""
-        dataToDisplay={meriseDiagrams}
+        dataToDisplay={meriseDiagrams as IDiagram[]}
         parentRoute="merise-diagrams"
         essentials={false}
       />
