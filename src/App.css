@@ -29,6 +29,13 @@ a {
   position: absolute;
 }
 
+.search-container {
+  height: 3rem;
+  display: flex;
+  justify-content : end;
+  padding: 3rem 2rem 0 0;
+}
+
 .page {
   flex-basis: 100%;
   display: flex;

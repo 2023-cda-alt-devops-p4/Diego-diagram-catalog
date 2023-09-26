@@ -1,0 +1,69 @@
+.searchContainer {
+    position: absolute;
+}
+.inp {
+    display: flex;
+}
+
+input[type=text] {
+    background-color: var(--clearorange);
+    border: none;
+    height: 2rem;
+    border-radius: .2rem 0 0 .2rem;
+}
+
+input[type=text]:focus {
+    background-color: var(--principal);
+    border: .1rem solid var(--dark);
+    outline: none;
+}
+
+.inputBtn {
+    background-color: var(--clearorange);
+    color: var(--principal);
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0 .2rem .2rem 0;
+    cursor: pointer;
+}
+
+.droplist {
+    background-color: #FFF;
+    border-radius: .3rem;
+    position: absolute;
+    z-index: 1;
+    font-size: .9rem;
+}
+
+.list {
+    list-style-type: none;
+    border: .1rem solid var(--principal);
+    height: 3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.list:hover {
+    background-color: var(--clearorange);
+    cursor: pointer;
+}
+
+.dropCardContainer {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    color: var(--principal);
+}
+
+.iconImage {
+    width: 2rem;
+    height: 2rem;
+    border-radius: .3rem;
+    object-fit: conver;
+}
+
+.searchTitle{
+    width: 10rem;
+}
