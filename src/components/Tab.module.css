@@ -7,6 +7,12 @@
     width: 100%;
 }
 
+.tabTitle {
+    width: 90%;
+    margin-top: 1.5rem;
+    color: var(--principal);
+}
+
 .cardsContainer {
     width: 100%;
     display: grid;
@@ -23,4 +29,10 @@
     height: 100%;
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .cardsContainer {
+        width: 90%
+    }
 }
