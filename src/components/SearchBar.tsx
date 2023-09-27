@@ -1,8 +1,7 @@
 import { useState } from "react";
-// import { IDiagram } from "../models/diagram";
 import styles from "./SearchBar.module.css";
 
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, FaTimes } from "react-icons/fa";
 import { IDiagramJSON } from "../models/diagramjson";
 import { Link } from "react-router-dom";
 import { IDiagram } from "../models/diagram";
@@ -63,8 +62,6 @@ export const SearchBar = ({ dataToFilter }: SearchProps) => {
     return isMerise;
   };
 
-  console.log(filteredResult);
-
   return (
     <div className={styles.searchContainer}>
       <div className={styles.inp}>
@@ -75,6 +72,11 @@ export const SearchBar = ({ dataToFilter }: SearchProps) => {
           onChange={handleInputOnKeyTap}
           className={styles.inputBox}
         />
+        {searchValue && (
+          <button onClick={closeDropdown} className={styles.closeBtn}>
+            <FaTimes />
+          </button>
+        )}
         <button onClick={handleSearch} className={styles.inputBtn}>
           <FaSearch />
         </button>

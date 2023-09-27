@@ -117,7 +117,7 @@
     "allDiagrams": [
       {
         "id": 1,
-        "title": "The UML diagram",
+        "title": "Diagrammes de Classe",
         "image": "https://source.unsplash.com/random",
         "shortDescription": "this is the short description for the frst",
         "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
@@ -126,7 +126,7 @@
       },
       {
         "id": 2,
-        "title": "Another UML Diagram",
+        "title": "Diagrammes d'Objets",
         "image": "https://source.unsplash.com/random",
         "shortDescription": "this is another short description",
         "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
@@ -135,7 +135,7 @@
       },
       {
         "id": 3,
-        "title": "Another UML Diagram",
+        "title": "Diagrammes de Composants",
         "image": "https://source.unsplash.com/random",
         "shortDescription": "this is another short description",
         "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
@@ -144,7 +144,7 @@
       },
       {
         "id": 4,
-        "title": "Another UML Diagram",
+        "title": "Digrammes de Structure Composites",
         "image": "https://source.unsplash.com/random",
         "shortDescription": "this is another short description",
         "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
@@ -153,7 +153,7 @@
       },
       {
         "id": 5,
-        "title": "Another UML Diagram",
+        "title": "Diagrammes de Paquetage",
         "image": "https://source.unsplash.com/random",
         "shortDescription": "this is another short description",
         "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
@@ -162,7 +162,79 @@
       },
       {
         "id": 6,
-        "title": "Another UML Diagram",
+        "title": "Diagrammes de Profil",
+        "image": "https://source.unsplash.com/random",
+        "shortDescription": "this is another short description",
+        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "source": "",
+        "essential": true
+      },
+      {
+        "id": 7,
+        "title": "Diagrammes de Déploiement",
+        "image": "https://source.unsplash.com/random",
+        "shortDescription": "this is another short description",
+        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "source": "",
+        "essential": true
+      },
+      {
+        "id": 8,
+        "title": "Diagrammes d'Activité",
+        "image": "https://source.unsplash.com/random",
+        "shortDescription": "this is another short description",
+        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "source": "",
+        "essential": true
+      },
+      {
+        "id": 9,
+        "title": "Diagrammes de State Machine",
+        "image": "https://source.unsplash.com/random",
+        "shortDescription": "this is another short description",
+        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "source": "",
+        "essential": true
+      },
+      {
+        "id": 10,
+        "title": "Diagrammes de Séquence",
+        "image": "https://source.unsplash.com/random",
+        "shortDescription": "this is another short description",
+        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "source": "",
+        "essential": true
+      },
+      {
+        "id": 11,
+        "title": "Diagrammes de Temps",
+        "image": "https://source.unsplash.com/random",
+        "shortDescription": "this is another short description",
+        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "source": "",
+        "essential": true
+      },
+      {
+        "id": 12,
+        "title": "Diagrammes de Communication",
+        "image": "https://source.unsplash.com/random",
+        "shortDescription": "this is another short description",
+        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "source": "",
+        "essential": true
+      },
+      {
+        "id": 13,
+        "title": "Diagrammes des Cas d'utilisation",
+        "image": "https://source.unsplash.com/random",
+        "shortDescription": "this is another short description",
+        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "source": "",
+        "essential": true
+      },
+      {
+        "id": 14,
+        "title": "Diagrammes de Vue d'Ensamble d'Interaction",
         "image": "https://source.unsplash.com/random",
         "shortDescription": "this is another short description",
         "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",

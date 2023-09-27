@@ -16,6 +16,27 @@ input[type=text]:focus {
     background-color: var(--principal);
     border: .1rem solid var(--dark);
     outline: none;
+    color: #FFF;
+}
+
+::placeholder:focus {
+    color: #FFF;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 1;
+    padding-left: .1rem; 
+}
+
+.closeBtn {
+    background-color:  var(--clearorange);
+    color: rgb(208, 26, 26);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 .inputBtn {
