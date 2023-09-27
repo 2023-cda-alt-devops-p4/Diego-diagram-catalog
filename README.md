@@ -8,10 +8,12 @@ This application presents these diagrams along with essential information that w
 
 Currently running on:
 
-- [Diagrams app!](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+- [Diagrams app!](https://diagrams-site.netlify.app/)
 
 ## Sources 
 - [Merise](https://www.cours-gratuit.com/cours-merise/cours-sur-les-differents-modeles-de-la-methode-merise)
 - [UML](https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML)
 
 ## What the app looks like:
+![Home](./public/homepage.PNG)
+![Sidebar opened](./public/openside.PNG)
