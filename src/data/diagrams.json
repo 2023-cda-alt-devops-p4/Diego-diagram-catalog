@@ -118,128 +118,128 @@
       {
         "id": 1,
         "title": "Diagrammes de Classe",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is the short description for the frst",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/class-diagram.webp",
+        "shortDescription": "Devenus essentiels dans les méthodes orientées objet, décrivent les types d'objets d'un système et leurs relations.",
+        "largeDescription": "Cette technique est devenue centrale dans les méthodes orientées objet. Le diagramme de classes décrit les types d'objets du système et les différents types de relations statiques qui existent entre eux. Les diagrammes de classes décrivent également les attributs et les opérations d'une classe, ainsi que les contraintes auxquelles ils sont soumis. Comment interpréter un diagramme de classes : un diagramme est dessiné pour représenter les concepts du domaine étudié. Ces concepts sont naturellement liés aux classes qui les mettent en œuvre.",
         "source": "",
         "essential": true
       },
       {
         "id": 2,
         "title": "Diagrammes d'Objets",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/Object-Diagram.png",
+        "shortDescription": "Instance d'une classe, c'est-à-dire une entité qui possède des valeurs d'attributs et des actions spécifiques.",
+        "largeDescription": "Un diagramme d'objets UML représente une instance spécifique d'un diagramme de classes à un moment donné. Lorsqu'il est représenté visuellement, il présente de nombreuses similitudes avec le diagramme de classes. Ce diagramme se concentre sur les attributs d'un ensemble d'objets et sur la manière dont ces objets sont liés les uns aux autres.",
         "source": "",
         "essential": true
       },
       {
         "id": 3,
         "title": "Diagrammes de Composants",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "https://source.unsplash.com/randomg",
+        "shortDescription": "Décompose le système en fonctions de haut niveau, chaque composant ayant un objectif spécifique et des interactions limitées.",
+        "largeDescription": "Un composant logiciel est une partie physique d'un système, située sur l'ordinateur. Par exemple, un tableau, un fichier de données, .exe, docs, etc. Imaginez le composant comme l'incarnation logicielle d'une classe. Il est important de savoir qu'un composant peut être l'implémentation de plus d'une classe. Ces diagrammes contiennent des composants, des interfaces et des relations. Ce diagramme décompose le système réel en cours de développement en différents niveaux élevés de fonctionnalité. Chaque composant est responsable d'un objectif précis au sein de l'ensemble du système et n'interagit avec d'autres éléments essentiels que sur la base du besoin d'en connaître.",
         "source": "",
-        "essential": true
+        "essential": false
       },
       {
         "id": 4,
         "title": "Digrammes de Structure Composites",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/structure-composite.png",
+        "shortDescription": "Affiche la structure interne des classes, interfaces et paquets d'un système logiciel, ainsi que leurs relations.",
+        "largeDescription": "Parfois, les principaux diagrammes UML ne nous donnent pas tous les détails de notre système. Les diagrammes de structure composite montrent comment les objets créent une image globale.  Ils modélisent le fonctionnement des objets au sein d'une classe ou la manière dont ils atteignent un objectif. Ce diagramme montre la structure interne d'un élément, y compris les points d'interaction avec d'autres parties du système.",
         "source": "",
-        "essential": true
+        "essential": false
       },
       {
         "id": 5,
         "title": "Diagrammes de Paquetage",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/package-diagram.webp",
+        "shortDescription": "Permet de décomposer un grand système en unités plus petites appelées paquetages, montrant les dépendances entre eux pour faciliter le travail avec des informations limitées.",
+        "largeDescription": "L'une des questions les plus anciennes dans le domaine des méthodes logicielles est la suivante : comment peut-on décomposer un grand système en systèmes plus petits ? Il est important qu'un grand système puisse être décomposé en unités plus petites, afin que les gens puissent travailler avec une quantité limitée d'informations. Un paquetage est une partie d'un modèle. Chaque partie d'un modèle doit appartenir à un paquetage. Bien qu'un package puisse être n'importe quel élément d'un modèle et pas seulement les classes, dans ce type de diagramme, il est utilisé pour indiquer un diagramme montrant les packages de classes et les dépendances entre eux. Les dépendances se produisent entre des éléments individuels. Les dépendances d'un paquet résument les dépendances entre les éléments qu'il contient.\nIl existe une dépendance entre deux éléments si des changements dans la définition d'un élément peuvent entraîner des changements dans l'autre.",
         "source": "",
         "essential": true
       },
       {
         "id": 6,
         "title": "Diagrammes de Profil",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "https://source.unsplash.com/randomg",
+        "shortDescription": "Étend l'UML via des profils cohérents pour des domaines ou objectifs spécifiques.",
+        "largeDescription": "Le diagramme de profil est un mécanisme d'extension qui permet aux modélisateurs d'apporter certaines extensions à l'UML. Les extensions sont réalisées dans des profils. Un profil est un ensemble cohérent d'extensions applicables à un domaine ou à un objectif donné. o",
         "source": "",
-        "essential": true
+        "essential": false
       },
       {
         "id": 7,
         "title": "Diagrammes de Déploiement",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/deployment-diagram.png",
+        "shortDescription": "Il montre les relations physiques entre les composants logiciels et matériels du système.",
+        "largeDescription": "Les composants de ce diagramme représentent des modules de code physique. Ils correspondent exactement aux paquets dans un diagramme de paquets. Celui-ci montre uniquement où chaque paquet est exécuté dans le système. Les dépendances doivent être les mêmes que celles du paquet. La disposition physique des nœuds est illustrée ici. Les nœuds désignent les dispositifs physiques ou logiciels qui font partie de l'environnement dans lequel l'application est déployée (ordinateurs, serveurs, dispositifs de réseau, etc.).",
         "source": "",
-        "essential": true
+        "essential": false
       },
       {
         "id": 8,
         "title": "Diagrammes d'Activité",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/activity-diagram.webp",
+        "shortDescription": "Utile dans le cadre d'un flux de travail et pour la description du comportement d'un grand nombre de processus parallèles.n",
+        "largeDescription": "Dans le diagramme d'activités, les activités sont représentées par des cases aux coins arrondis et contiennent la description de l'activité. Un flux de contrôle est représenté par une flèche. Les branches sont représentées par des conditions de garde sur les flux de contrôle ou par des losanges avec plusieurs flèches de sortie. Les barres de synchronisation indiquent que ces activités peuvent se dérouler en parallèle (leur ordre n'est pas significatif). Le diagramme d'activités vous permet de choisir l'ordre dans lequel les choses seront faites. Il m'indique uniquement les règles essentielles de séquençage à suivre. Principale différence avec un organigramme.",
         "source": "",
-        "essential": true
+        "essential": false
       },
       {
         "id": 9,
-        "title": "Diagrammes de State Machine",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "title": "Diagrammes d'Etat (State Machine)",
+        "image": "../public/state-example.png",
+        "shortDescription": "Technique pour représenter le comportement d'un système, en décrivant les états possibles d'un objet et comment ces états changent en réponse aux événements.",
+        "largeDescription": "Les diagrammes d'état sont une technique permettant de décrire le comportement d'un système, en décrivant tous les états possibles d'un objet particulier et la manière dont son état est modifié par les événements qui l'atteignent. Dans la plupart des techniques orientées objet, les diagrammes d'état sont dessinés pour une seule classe, montrant le comportement d'un seul objet pendant son cycle de vie. Mais qu'est-ce que l'état, c'est un ensemble de valeurs d'un objet pour une classe donnée, c'est-à-dire que tous les objets ayant le même état réagissent de la même manière générale à un événement. Une machine à états décrit un petit nombre d'états pouvant être hébergés par un objet, constituant ainsi un modèle de toutes les histoires de vie possibles d'un objet d'une classe. Toute influence du monde extérieur est résumée dans un événement. L'objet détecte l'événement et réagit d'une manière qui dépend de son état actuel.",
         "source": "",
-        "essential": true
+        "essential": false
       },
       {
         "id": 10,
         "title": "Diagrammes de Séquence",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/sequence-diagram.webp",
+        "shortDescription": "Ils constituent l'étape suivante du diagramme d'état car ils montrent comment les objets communiquent entre eux au fil du temps.",
+        "largeDescription": "Ce qui est important dans ce diagramme, c'est le temps. En effet, les interactions entre les objets se déroulent dans une séquence déterminée et cette séquence prend du temps. Ce diagramme se compose d'objets représentés de la manière habituelle : des rectangles avec des noms, des messages représentés par des flèches et le temps en progression verticale. Cette ligne, appelée ligne de vie, représente la vie de l'objet au cours de l'interaction. Chaque message est représenté par une flèche entre les lignes de vie de deux objets. L'ordre dans lequel ils sont donnés est de haut en bas.",
         "source": "",
         "essential": true
       },
       {
         "id": 11,
         "title": "Diagrammes de Temps",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/time-diagram.PNG",
+        "shortDescription": "Montrent comment les conditions évoluent dans le temps entre les lignes de vie, en mettant l'accent sur le moment où les événements affectent les conditions de la ligne de vie.",
+        "largeDescription": "Il ne s'agit pas uniquement de temps. Toutefois, si vous souhaitez qu'une interaction ne prenne pas plus de 10 secondes, ou qu'un message prenne moins de la moitié du temps d'interaction, si ces informations sont utiles pour une interaction que vous êtes en train de modéliser, alors ce diagramme vous sera utile. Dans un tel diagramme, chaque événement est associé à des informations temporelles qui décrivent le moment où il a été invoqué, le temps qu'il faut à un autre participant pour le recevoir et la durée pendant laquelle le destinataire se trouvera dans un état particulier.",
         "source": "",
-        "essential": true
+        "essential": false
       },
       {
         "id": 12,
         "title": "Diagrammes de Communication",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/communication-diagram.jpg",
+        "shortDescription": "Ajoutent une autre perspective à une interaction en se concentrant sur les liens entre les participants.",
+        "largeDescription": "Les diagrammes de communication ajoutent une autre perspective à une interaction en se concentrant sur les liens entre les participants. Ces diagrammes sont particulièrement utiles pour montrer les liens nécessaires entre les participants pour transmettre le message d'une interaction. Un simple coup d'œil à l'un de ces diagrammes permet de savoir quels participants doivent être connectés pour qu'une interaction ait lieu.",
         "source": "",
-        "essential": true
+        "essential": false
       },
       {
         "id": 13,
         "title": "Diagrammes des Cas d'utilisation",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/UML_use_case_example.png",
+        "shortDescription": "Interaction courante entre un utilisateur (ou acteur) et un système informatique.",
+        "largeDescription": "Un cas d'utilisation est une interaction typique entre un utilisateur, également appelé acteur, et un système informatique, obtenue en discutant avec des utilisateurs réguliers, en voyant ce qu'ils veulent faire avec le système. C'est Ivar Jacobson qui a introduit ce concept, mais aussi les diagrammes de cas d'utilisation pour les représenter graphiquement. Quelques concepts importants à prendre en compte sont : acteurs, <<extends>>, <<uses>> et scénario.",
         "source": "",
         "essential": true
       },
       {
         "id": 14,
         "title": "Diagrammes de Vue d'Ensamble d'Interaction",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "this is another short description",
-        "largeDescription": "Long description to display inside the card once the user has clickes and has been redirected to the page with the info",
+        "image": "../public/interaction-diagram.png",
+        "shortDescription": "Modèles qui décrivent comment des groupes d'objets collaborent pour obtenir un comportement spécifique.",
+        "largeDescription": "Les diagrammes d'interaction sont des modèles qui décrivent comment des groupes d'objets collaborent pour obtenir un certain comportement. En général, un tel diagramme capture le comportement d'un seul cas d'utilisation. Un diagramme montre un certain nombre d'exemples d'objets et les messages qui sont transmis entre eux au sein d'un même cas d'utilisation. Il existe deux types de diagrammes d'interaction : les diagrammes de séquence et les diagrammes de collaboration. - Diagramme de séquence : un objet est représenté par une boîte au-dessus d'une ligne verticale en pointillés (ligne de vie de l'objet). Chaque message est représenté par une flèche entre chaque ligne de vie de deux objets. - Diagrammes de collaboration : ici, les exemples d'objets sont représentés par des icônes. Les flèches, comme dans les diagrammes de séquence, indiquent les messages envoyés. Dans ce cas, les messages sont numérotés.",
         "source": "",
-        "essential": true
+        "essential": false
       }
     ]
   }
