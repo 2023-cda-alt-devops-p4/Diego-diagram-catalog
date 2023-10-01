@@ -8,7 +8,7 @@
         "image": "/modele-conceptuel-communication.PNG",
         "shortDescription": "Formalise les échanges d'informations entre systèmes",
         "largeDescription": "Le modèle conceptuel de communication représente les échanges de flux de produits, d'énergie, de personne, de valeur ou d'information entre systèmes. Ces systèmes fonctionnels appelés intervenants sont, soit externes à l'entreprise, soit internes.",
-        "source": "",
+        "source": "https://www.cours-gratuit.com/cours-merise/debuter-l-analyse-et-le-conception-avec-la-methode-merise",
         "essential": true
       },
       {
@@ -17,7 +17,7 @@
         "image": "/modele-cd.PNG",
         "shortDescription": "Aussi appelé Modèle Entité-Association, c’est une ensemble de concepts pour modéliser les données d’une système informatique. ",
         "largeDescription": "Se concentre sur la compréhension et la représentation des concepts et entités clés de l'entreprise à analyser. C'est-à-dire qu'il décrit de manière formelle les données utilisées par le système. Ce modèle nous fournit les principales entités, les attributs et les relations.",
-        "source": "",
+        "source": "Baptiste, J., (2009). Merise Guide Pratique. Eni editions.",
         "essential": true
       },
       {
@@ -26,25 +26,25 @@
         "image": "/modele-conceptuel-traitements.PNG",
         "shortDescription": "Aussi appelé modèle événement-résultat, met en lumière les traitements effectués sur les données.",
         "largeDescription": "Le Modèle Conceptuel  des  Traitements  ne  répond  ni  au  comment,  ni  au  quand,  ni  au  qui, mais  à  Que  souhaite-­t­-on obtenir ? L’arrivée  d’un  ou  plusieurs  évènements  va  générer  une opération qui va elle-­même fournir un résultat ",
-        "source": "",
+        "source": "Baptiste, J., (2009). Merise Guide Pratique. Eni editions.",
         "essential": true
       },
       {
         "id": 4,
         "title": "Modèle Organisationnel de Communication",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "strin",
-        "largeDescription": "string",
-        "source": "",
+        "image": "/modele-organisationnel-communication.PNG",
+        "shortDescription": "Comprendre comment l'information circule et est partagée au sein d'une organisation ou d'une entreprise.",
+        "largeDescription": "Le MOC est utilisé dans le développement de systèmes logiciels pour comprendre comment l'information circule au sein d'une organisation, puis pour concevoir des systèmes qui gèrent et soutiennent ces flux de données de manière efficace et sûre. C'est un outil qui permet de s'assurer que le logiciel développé répond aux besoins de communication de l'organisation.",
+        "source": "https://www.cours-gratuit.com/cours-merise/debuter-l-analyse-et-le-conception-avec-la-methode-merise",
         "essential": false
       },
       {
         "id": 5,
         "title": "Modèle Organisationnel des Données",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "strin",
-        "largeDescription": "string",
-        "source": "",
+        "image": "/modele-organisationnel-donnes.PNG",
+        "shortDescription": "Il est utilisé pour structurer et organiser les données au sein d'une organisation.",
+        "largeDescription": "Le MOD, sectionné par site construit à partir du DCM, permet de conserver une cohérence et de définir la répartition dans l'organisation et les modalités d'accès aux données ainsi que la répartition d'exécution de traitement décrite dans les opérations de gestion en tenant compte de l'organisation.",
+        "source": "https://mrproof.blogspot.com/2010/10/cours-sur-les-modeles-du-niveau_13.html",
         "essential": false
       },
       {
@@ -53,16 +53,16 @@
         "image": "/modele-organisationnel-traitements.PNG",
         "shortDescription": "Complète le MCT en précisant les aspects organisationnels des traitements : qui, où et quand.",
         "largeDescription": "Pour compléter le MCT avec tout ce qui est d’ordre organisationnel dans le domaine étudié. Ce modèle précise la nature des traitements et qui les exécute, le lieu ou son exécutés, et quand sont exécutés. ",
-        "source": "",
+        "source": "Baptiste, J., (2009). Merise Guide Pratique. Eni editions.",
         "essential": false
       },
       {
         "id": 7,
         "title": "Modèle Logique de Communication",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "strin",
-        "largeDescription": "string",
-        "source": "",
+        "image": "/modele-logique-communication.PNG",
+        "shortDescription": "Il est utilisé pour lister et fixer les messages entre les sites et les bases de données.",
+        "largeDescription": "Le MLC est utilisé pour définir la logique interne du système, la façon dont les données sont manipulées et la façon dont il communique avec le monde extérieur.",
+        "source": "https://www.cours-gratuit.com/cours-merise/debuter-l-analyse-et-le-conception-avec-la-methode-merise",
         "essential": false
       },
       {
@@ -71,25 +71,25 @@
         "image": "/modele-logique-donnes.png",
         "shortDescription": "Ce modèle reprend le MCD et en affine les détails pour présenter précisément comment stocker des données dans une base de données.",
         "largeDescription": "Son but est de nous rapprocher au plus près du modèle physique, nous partons du Modèle Conceptuel des Données et nous lui enlevons les relations.",
-        "source": "",
+        "source": "Baptiste, J., (2009). Merise Guide Pratique. Eni editions.",
         "essential": true
       },
       {
         "id": 9,
         "title": "Modèle Logique des Traitements",
-        "image": "https://source.unsplash.com/randomg",
-        "shortDescription": "strin",
-        "largeDescription": "string",
-        "source": "",
+        "image": "/modele-logique-trait.png",
+        "shortDescription": "Comment informatiser les activités prescrites dans la modélisation organisationnelle des traitements (phases, tâches).",
+        "largeDescription": "Le MLT se concentre sur la perspective interne des outils que l'informaticien utilisera pour développer le logiciel associé aux opérations informatiques définies dans le MOT.",
+        "source": "https://www.cours-gratuit.com/cours-merise/debuter-l-analyse-et-le-conception-avec-la-methode-merise",
         "essential": false
       },
       {
         "id": 10,
         "title": "Modèle Physique de Communication",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "strin",
-        "largeDescription": "string",
-        "source": "",
+        "image": "/not-found.jpg",
+        "shortDescription": "Il se concentre sur la mise en œuvre technique de la manière dont les données sont transmises et stockées au sein du système d'information.",
+        "largeDescription": "Le MPC se concentre sur la mise en œuvre concrète du système d'information, en détaillant les composants techniques, les technologies de communication et le stockage des données. Ce modèle est crucial pour la construction et la mise en œuvre efficaces du système.",
+        "source": "https://www.cours-gratuit.com/cours-merise/debuter-l-analyse-et-le-conception-avec-la-methode-merise",
         "essential": false
       },
       {
@@ -98,16 +98,16 @@
         "image": "/modele-physique-donnes.png",
         "shortDescription": "Il prend le MLD et l'adapte à un système de gestion de base de données spécifique.",
         "largeDescription": "On abandonne juste la représentation graphique pour une représentation plus linéaire. Il définit également des détails techniques tels que les types de données, les indices et le stockage physique.",
-        "source": "",
+        "source": "Baptiste, J., (2009). Merise Guide Pratique. Eni editions.",
         "essential": false
       },
       {
         "id": 12,
         "title": "Modèle Physique des Traitements",
-        "image": "https://source.unsplash.com/random",
-        "shortDescription": "strin",
-        "largeDescription": "string",
-        "source": "",
+        "image": "/not-found.jpg",
+        "shortDescription": "Il consiste en l'écriture du programme.",
+        "largeDescription": "Se concentre sur la mise en œuvre technique des processus ou des activités du systèm.",
+        "source": "https://www.cours-gratuit.com/cours-merise/debuter-l-analyse-et-le-conception-avec-la-methode-merise",
         "essential": false
       }
     ]
@@ -120,8 +120,8 @@
         "title": "Diagrammes de Classe",
         "image": "/class-diagram.webp",
         "shortDescription": "Devenus essentiels dans les méthodes orientées objet, décrivent les types d'objets d'un système et leurs relations.",
-        "largeDescription": "Cette technique est devenue centrale dans les méthodes orientées objet. Le diagramme de classes décrit les types d'objets du système et les différents types de relations statiques qui existent entre eux. Les diagrammes de classes décrivent également les attributs et les opérations d'une classe, ainsi que les contraintes auxquelles ils sont soumis. Comment interpréter un diagramme de classes : un diagramme est dessiné pour représenter les concepts du domaine étudié. Ces concepts sont naturellement liés aux classes qui les mettent en œuvre.",
-        "source": "",
+        "largeDescription": "Cette technique est devenue centrale dans les méthodes orientées objet. Le diagramme de classes décrit les types d'objets du système et les différents types de relations statiques qui existent entre eux. \nLes diagrammes de classes décrivent également les attributs et les opérations d'une classe, ainsi que les contraintes auxquelles ils sont soumis. \nComment interpréter un diagramme de classes : un diagramme est dessiné pour représenter les concepts du domaine étudié. Ces concepts sont naturellement liés aux classes qui les mettent en œuvre.",
+        "source": "Fowler. M., & Scott, K., (1999). UML Gota a Gota. Pearson.",
         "essential": true
       },
       {
@@ -129,17 +129,17 @@
         "title": "Diagrammes d'Objets",
         "image": "/Object-Diagram.png",
         "shortDescription": "Instance d'une classe, c'est-à-dire une entité qui possède des valeurs d'attributs et des actions spécifiques.",
-        "largeDescription": "Un diagramme d'objets UML représente une instance spécifique d'un diagramme de classes à un moment donné. Lorsqu'il est représenté visuellement, il présente de nombreuses similitudes avec le diagramme de classes. Ce diagramme se concentre sur les attributs d'un ensemble d'objets et sur la manière dont ces objets sont liés les uns aux autres.",
-        "source": "",
+        "largeDescription": "Un diagramme d'objets UML représente une instance spécifique d'un diagramme de classes à un moment donné. Lorsqu'il est représenté visuellement, il présente de nombreuses similitudes avec le diagramme de classes. \nCe diagramme se concentre sur les attributs d'un ensemble d'objets et sur la manière dont ces objets sont liés les uns aux autres.",
+        "source": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-object-diagram/",
         "essential": true
       },
       {
         "id": 3,
         "title": "Diagrammes de Composants",
-        "image": "https://source.unsplash.com/randomg",
+        "image": "/diagram-component.png",
         "shortDescription": "Décompose le système en fonctions de haut niveau, chaque composant ayant un objectif spécifique et des interactions limitées.",
-        "largeDescription": "Un composant logiciel est une partie physique d'un système, située sur l'ordinateur. Par exemple, un tableau, un fichier de données, .exe, docs, etc. Imaginez le composant comme l'incarnation logicielle d'une classe. Il est important de savoir qu'un composant peut être l'implémentation de plus d'une classe. Ces diagrammes contiennent des composants, des interfaces et des relations. Ce diagramme décompose le système réel en cours de développement en différents niveaux élevés de fonctionnalité. Chaque composant est responsable d'un objectif précis au sein de l'ensemble du système et n'interagit avec d'autres éléments essentiels que sur la base du besoin d'en connaître.",
-        "source": "",
+        "largeDescription": "Un composant logiciel est une partie physique d'un système, située sur l'ordinateur. Par exemple, un tableau, un fichier de données, .exe, docs, etc. Imaginez le composant comme l'incarnation logicielle d'une classe. Il est important de savoir qu'un composant peut être l'implémentation de plus d'une classe. \nCes diagrammes contiennent des composants, des interfaces et des relations. Ce diagramme décompose le système réel en cours de développement en différents niveaux élevés de fonctionnalité. Chaque composant est responsable d'un objectif précis au sein de l'ensemble du système et n'interagit avec d'autres éléments essentiels que sur la base du besoin d'en connaître.",
+        "source": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-component-diagram/",
         "essential": false
       },
       {
@@ -147,8 +147,8 @@
         "title": "Digrammes de Structure Composites",
         "image": "/structure-composite.png",
         "shortDescription": "Affiche la structure interne des classes, interfaces et paquets d'un système logiciel, ainsi que leurs relations.",
-        "largeDescription": "Parfois, les principaux diagrammes UML ne nous donnent pas tous les détails de notre système. Les diagrammes de structure composite montrent comment les objets créent une image globale.  Ils modélisent le fonctionnement des objets au sein d'une classe ou la manière dont ils atteignent un objectif. Ce diagramme montre la structure interne d'un élément, y compris les points d'interaction avec d'autres parties du système.",
-        "source": "",
+        "largeDescription": "Parfois, les principaux diagrammes UML ne nous donnent pas tous les détails de notre système. Les diagrammes de structure composite montrent comment les objets créent une image globale. Ils modélisent le fonctionnement des objets au sein d'une classe ou la manière dont ils atteignent un objectif. \nCe diagramme montre la structure interne d'un élément, y compris les points d'interaction avec d'autres parties du système.",
+        "source": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-composite-structure-diagram/",
         "essential": false
       },
       {
@@ -156,17 +156,17 @@
         "title": "Diagrammes de Paquetage",
         "image": "/package-diagram.webp",
         "shortDescription": "Permet de décomposer un grand système en unités plus petites appelées paquetages, montrant les dépendances entre eux pour faciliter le travail avec des informations limitées.",
-        "largeDescription": "L'une des questions les plus anciennes dans le domaine des méthodes logicielles est la suivante : comment peut-on décomposer un grand système en systèmes plus petits ? Il est important qu'un grand système puisse être décomposé en unités plus petites, afin que les gens puissent travailler avec une quantité limitée d'informations. Un paquetage est une partie d'un modèle. Chaque partie d'un modèle doit appartenir à un paquetage. Bien qu'un package puisse être n'importe quel élément d'un modèle et pas seulement les classes, dans ce type de diagramme, il est utilisé pour indiquer un diagramme montrant les packages de classes et les dépendances entre eux. Les dépendances se produisent entre des éléments individuels. Les dépendances d'un paquet résument les dépendances entre les éléments qu'il contient.\nIl existe une dépendance entre deux éléments si des changements dans la définition d'un élément peuvent entraîner des changements dans l'autre.",
-        "source": "",
+        "largeDescription": "L'une des questions les plus anciennes dans le domaine des méthodes logicielles est la suivante : comment peut-on décomposer un grand système en systèmes plus petits ? Il est important qu'un grand système puisse être décomposé en unités plus petites, afin que les gens puissent travailler avec une quantité limitée d'informations. \nUn paquetage est une partie d'un modèle. Chaque partie d'un modèle doit appartenir à un paquetage. Bien qu'un package puisse être n'importe quel élément d'un modèle et pas seulement les classes, dans ce type de diagramme, il est utilisé pour indiquer un diagramme montrant les packages de classes et les dépendances entre eux. Les dépendances se produisent entre des éléments individuels. Les dépendances d'un paquet résument les dépendances entre les éléments qu'il contient.\nIl existe une dépendance entre deux éléments si des changements dans la définition d'un élément peuvent entraîner des changements dans l'autre.",
+        "source": "Fowler. M., & Scott, K., (1999). UML Gota a Gota. Pearson.",
         "essential": true
       },
       {
         "id": 6,
         "title": "Diagrammes de Profil",
-        "image": "https://source.unsplash.com/randomg",
+        "image": "/profile-diagram.PNG",
         "shortDescription": "Étend l'UML via des profils cohérents pour des domaines ou objectifs spécifiques.",
-        "largeDescription": "Le diagramme de profil est un mécanisme d'extension qui permet aux modélisateurs d'apporter certaines extensions à l'UML. Les extensions sont réalisées dans des profils. Un profil est un ensemble cohérent d'extensions applicables à un domaine ou à un objectif donné. o",
-        "source": "",
+        "largeDescription": "Le diagramme de profil est un mécanisme d'extension qui permet aux modélisateurs d'apporter certaines extensions à l'UML. Les extensions sont réalisées dans des profils. \nUn profil est un ensemble cohérent d'extensions applicables à un domaine ou à un objectif donné.",
+        "source": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-profile-diagram/",
         "essential": false
       },
       {
@@ -174,8 +174,8 @@
         "title": "Diagrammes de Déploiement",
         "image": "/deployment-diagram.png",
         "shortDescription": "Il montre les relations physiques entre les composants logiciels et matériels du système.",
-        "largeDescription": "Les composants de ce diagramme représentent des modules de code physique. Ils correspondent exactement aux paquets dans un diagramme de paquets. Celui-ci montre uniquement où chaque paquet est exécuté dans le système. Les dépendances doivent être les mêmes que celles du paquet. La disposition physique des nœuds est illustrée ici. Les nœuds désignent les dispositifs physiques ou logiciels qui font partie de l'environnement dans lequel l'application est déployée (ordinateurs, serveurs, dispositifs de réseau, etc.).",
-        "source": "",
+        "largeDescription": "Les composants de ce diagramme représentent des modules de code physique. Ils correspondent exactement aux paquets dans un diagramme de paquets. Celui-ci montre uniquement où chaque paquet est exécuté dans le système. Les dépendances doivent être les mêmes que celles du paquet. \nLa disposition physique des nœuds est illustrée ici. Les nœuds désignent les dispositifs physiques ou logiciels qui font partie de l'environnement dans lequel l'application est déployée (ordinateurs, serveurs, dispositifs de réseau, etc.).",
+        "source": "https://online.visual-paradigm.com/diagrams/tutorials/deployment-diagram-tutorial/",
         "essential": false
       },
       {
@@ -183,8 +183,8 @@
         "title": "Diagrammes d'Activité",
         "image": "/activity-diagram.webp",
         "shortDescription": "Utile dans le cadre d'un flux de travail et pour la description du comportement d'un grand nombre de processus parallèles.n",
-        "largeDescription": "Dans le diagramme d'activités, les activités sont représentées par des cases aux coins arrondis et contiennent la description de l'activité. Un flux de contrôle est représenté par une flèche. Les branches sont représentées par des conditions de garde sur les flux de contrôle ou par des losanges avec plusieurs flèches de sortie. Les barres de synchronisation indiquent que ces activités peuvent se dérouler en parallèle (leur ordre n'est pas significatif). Le diagramme d'activités vous permet de choisir l'ordre dans lequel les choses seront faites. Il m'indique uniquement les règles essentielles de séquençage à suivre. Principale différence avec un organigramme.",
-        "source": "",
+        "largeDescription": "Dans le diagramme d'activités, les activités sont représentées par des cases aux coins arrondis et contiennent la description de l'activité. Un flux de contrôle est représenté par une flèche. Les branches sont représentées par des conditions de garde sur les flux de contrôle ou par des losanges avec plusieurs flèches de sortie. Les barres de synchronisation indiquent que ces activités peuvent se dérouler en parallèle (leur ordre n'est pas significatif). \nLe diagramme d'activités vous permet de choisir l'ordre dans lequel les choses seront faites. Il m'indique uniquement les règles essentielles de séquençage à suivre. Principale différence avec un organigramme.",
+        "source": "Fowler. M., & Scott, K., (1999). UML Gota a Gota. Pearson.",
         "essential": false
       },
       {
@@ -192,8 +192,8 @@
         "title": "Diagrammes d'Etat (State Machine)",
         "image": "/state-example.png",
         "shortDescription": "Technique pour représenter le comportement d'un système, en décrivant les états possibles d'un objet et comment ces états changent en réponse aux événements.",
-        "largeDescription": "Les diagrammes d'état sont une technique permettant de décrire le comportement d'un système, en décrivant tous les états possibles d'un objet particulier et la manière dont son état est modifié par les événements qui l'atteignent. Dans la plupart des techniques orientées objet, les diagrammes d'état sont dessinés pour une seule classe, montrant le comportement d'un seul objet pendant son cycle de vie. Mais qu'est-ce que l'état, c'est un ensemble de valeurs d'un objet pour une classe donnée, c'est-à-dire que tous les objets ayant le même état réagissent de la même manière générale à un événement. Une machine à états décrit un petit nombre d'états pouvant être hébergés par un objet, constituant ainsi un modèle de toutes les histoires de vie possibles d'un objet d'une classe. Toute influence du monde extérieur est résumée dans un événement. L'objet détecte l'événement et réagit d'une manière qui dépend de son état actuel.",
-        "source": "",
+        "largeDescription": "Les diagrammes d'état sont une technique permettant de décrire le comportement d'un système, en décrivant tous les états possibles d'un objet particulier et la manière dont son état est modifié par les événements qui l'atteignent. \nDans la plupart des techniques orientées objet, les diagrammes d'état sont dessinés pour une seule classe, montrant le comportement d'un seul objet pendant son cycle de vie. \nMais qu'est-ce que l'état, c'est un ensemble de valeurs d'un objet pour une classe donnée, c'est-à-dire que tous les objets ayant le même état réagissent de la même manière générale à un événement. Une machine à états décrit un petit nombre d'états pouvant être hébergés par un objet, constituant ainsi un modèle de toutes les histoires de vie possibles d'un objet d'une classe. Toute influence du monde extérieur est résumée dans un événement. L'objet détecte l'événement et réagit d'une manière qui dépend de son état actuel.",
+        "source": "Fowler. M., & Scott, K., (1999). UML Gota a Gota. Pearson.",
         "essential": false
       },
       {
@@ -201,8 +201,8 @@
         "title": "Diagrammes de Séquence",
         "image": "/sequence-diagram.webp",
         "shortDescription": "Ils constituent l'étape suivante du diagramme d'état car ils montrent comment les objets communiquent entre eux au fil du temps.",
-        "largeDescription": "Ce qui est important dans ce diagramme, c'est le temps. En effet, les interactions entre les objets se déroulent dans une séquence déterminée et cette séquence prend du temps. Ce diagramme se compose d'objets représentés de la manière habituelle : des rectangles avec des noms, des messages représentés par des flèches et le temps en progression verticale. Cette ligne, appelée ligne de vie, représente la vie de l'objet au cours de l'interaction. Chaque message est représenté par une flèche entre les lignes de vie de deux objets. L'ordre dans lequel ils sont donnés est de haut en bas.",
-        "source": "",
+        "largeDescription": "Ce qui est important dans ce diagramme, c'est le temps. En effet, les interactions entre les objets se déroulent dans une séquence déterminée et cette séquence prend du temps. \nCe diagramme se compose d'objets représentés de la manière habituelle : des rectangles avec des noms, des messages représentés par des flèches et le temps en progression verticale. Cette ligne, appelée ligne de vie, représente la vie de l'objet au cours de l'interaction. Chaque message est représenté par une flèche entre les lignes de vie de deux objets. L'ordre dans lequel ils sont donnés est de haut en bas.",
+        "source": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/",
         "essential": true
       },
       {
@@ -210,8 +210,8 @@
         "title": "Diagrammes de Temps",
         "image": "/time-diagram.PNG",
         "shortDescription": "Montrent comment les conditions évoluent dans le temps entre les lignes de vie, en mettant l'accent sur le moment où les événements affectent les conditions de la ligne de vie.",
-        "largeDescription": "Il ne s'agit pas uniquement de temps. Toutefois, si vous souhaitez qu'une interaction ne prenne pas plus de 10 secondes, ou qu'un message prenne moins de la moitié du temps d'interaction, si ces informations sont utiles pour une interaction que vous êtes en train de modéliser, alors ce diagramme vous sera utile. Dans un tel diagramme, chaque événement est associé à des informations temporelles qui décrivent le moment où il a été invoqué, le temps qu'il faut à un autre participant pour le recevoir et la durée pendant laquelle le destinataire se trouvera dans un état particulier.",
-        "source": "",
+        "largeDescription": "Il ne s'agit pas uniquement de temps. Toutefois, si vous souhaitez qu'une interaction ne prenne pas plus de 10 secondes, ou qu'un message prenne moins de la moitié du temps d'interaction, si ces informations sont utiles pour une interaction que vous êtes en train de modéliser, alors ce diagramme vous sera utile. \nDans un tel diagramme, chaque événement est associé à des informations temporelles qui décrivent le moment où il a été invoqué, le temps qu'il faut à un autre participant pour le recevoir et la durée pendant laquelle le destinataire se trouvera dans un état particulier.",
+        "source": "https://www.lucidchart.com/pages/uml-timing-diagram",
         "essential": false
       },
       {
@@ -219,8 +219,8 @@
         "title": "Diagrammes de Communication",
         "image": "/communication-diagram.jpg",
         "shortDescription": "Ajoutent une autre perspective à une interaction en se concentrant sur les liens entre les participants.",
-        "largeDescription": "Les diagrammes de communication ajoutent une autre perspective à une interaction en se concentrant sur les liens entre les participants. Ces diagrammes sont particulièrement utiles pour montrer les liens nécessaires entre les participants pour transmettre le message d'une interaction. Un simple coup d'œil à l'un de ces diagrammes permet de savoir quels participants doivent être connectés pour qu'une interaction ait lieu.",
-        "source": "",
+        "largeDescription": "Les diagrammes de communication ajoutent une autre perspective à une interaction en se concentrant sur les liens entre les participants. \nCes diagrammes sont particulièrement utiles pour montrer les liens nécessaires entre les participants pour transmettre le message d'une interaction. Un simple coup d'œil à l'un de ces diagrammes permet de savoir quels participants doivent être connectés pour qu'une interaction ait lieu.",
+        "source": "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-communication-diagram/",
         "essential": false
       },
       {
@@ -229,7 +229,7 @@
         "image": "/UML_use_case_example.png",
         "shortDescription": "Interaction courante entre un utilisateur (ou acteur) et un système informatique.",
         "largeDescription": "Un cas d'utilisation est une interaction typique entre un utilisateur, également appelé acteur, et un système informatique, obtenue en discutant avec des utilisateurs réguliers, en voyant ce qu'ils veulent faire avec le système. C'est Ivar Jacobson qui a introduit ce concept, mais aussi les diagrammes de cas d'utilisation pour les représenter graphiquement. Quelques concepts importants à prendre en compte sont : acteurs, <<extends>>, <<uses>> et scénario.",
-        "source": "",
+        "source": "Fowler. M., & Scott, K., (1999). UML Gota a Gota. Pearson.",
         "essential": true
       },
       {
@@ -237,8 +237,8 @@
         "title": "Diagrammes de Vue d'Ensamble d'Interaction",
         "image": "/interaction-diagram.png",
         "shortDescription": "Modèles qui décrivent comment des groupes d'objets collaborent pour obtenir un comportement spécifique.",
-        "largeDescription": "Les diagrammes d'interaction sont des modèles qui décrivent comment des groupes d'objets collaborent pour obtenir un certain comportement. En général, un tel diagramme capture le comportement d'un seul cas d'utilisation. Un diagramme montre un certain nombre d'exemples d'objets et les messages qui sont transmis entre eux au sein d'un même cas d'utilisation. Il existe deux types de diagrammes d'interaction : les diagrammes de séquence et les diagrammes de collaboration. - Diagramme de séquence : un objet est représenté par une boîte au-dessus d'une ligne verticale en pointillés (ligne de vie de l'objet). Chaque message est représenté par une flèche entre chaque ligne de vie de deux objets. - Diagrammes de collaboration : ici, les exemples d'objets sont représentés par des icônes. Les flèches, comme dans les diagrammes de séquence, indiquent les messages envoyés. Dans ce cas, les messages sont numérotés.",
-        "source": "",
+        "largeDescription": "Les diagrammes d'interaction sont des modèles qui décrivent comment des groupes d'objets collaborent pour obtenir un certain comportement. En général, un tel diagramme capture le comportement d'un seul cas d'utilisation. \nUn diagramme montre un certain nombre d'exemples d'objets et les messages qui sont transmis entre eux au sein d'un même cas d'utilisation. \nIl existe deux types de diagrammes d'interaction : les diagrammes de séquence et les diagrammes de collaboration. \n- Diagramme de séquence : un objet est représenté par une boîte au-dessus d'une ligne verticale en pointillés (ligne de vie de l'objet). Chaque message est représenté par une flèche entre chaque ligne de vie de deux objets. \n- Diagrammes de collaboration : ici, les exemples d'objets sont représentés par des icônes. Les flèches, comme dans les diagrammes de séquence, indiquent les messages envoyés. Dans ce cas, les messages sont numérotés.",
+        "source": "Fowler. M., & Scott, K., (1999). UML Gota a Gota. Pearson.",
         "essential": false
       }
     ]
