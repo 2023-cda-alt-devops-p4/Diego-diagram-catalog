@@ -40,21 +40,29 @@ export const Diagram = () => {
       <div className={styles.container}>
         <h1 className={styles.title}>{dataToDisplay!.title}</h1>
         <a href={dataToDisplay.image} target="_blank">
-        <img
-          src={dataToDisplay.image}
-          alt={`${dataToDisplay.title} image`}
-          className={styles.image}
-        />
+          <img
+            src={dataToDisplay.image}
+            alt={`${dataToDisplay.title} image`}
+            className={styles.image}
+          />
         </a>
         <div className={styles.textContainer}>
-          <p className={styles.paragraph}>{dataToDisplay.largeDescription}</p>
-          <a
-            href={dataToDisplay.source}
-            target="_blank"
-            className={styles.sourceLink}
-          >
-            Read more
-          </a>
+          {dataToDisplay.largeDescription.split("\n").map((paragraph, i) => (
+            <p key={i} className={styles.paragraph}>
+              {paragraph}
+            </p>
+          ))}
+          {dataToDisplay.source.includes("://") ? (
+            <a
+              href={dataToDisplay.source}
+              target="_blank"
+              className={styles.sourceLink}
+            >
+              Read more
+            </a>
+          ) : (
+            <p>Source: {dataToDisplay.source}</p>
+          )}
         </div>
       </div>
     </div>
